@@ -1,5 +1,17 @@
 /* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
 
+.legend{
+background: #f1f1f1;
+padding-bottom: 20px;
+border-bottom: 3px solid #739eae;
+margin-top: 0px;
+margin-bottom: 20px;
+}
+
+
+.right {
+  float: right!important;
+}
 
 .fa-menu {
   display: block;

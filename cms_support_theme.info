@@ -5,7 +5,14 @@ engine = 'phptemplate'
 screenshot = 'screenshot.png'
 base theme = 'omega'
 
+
+scripts[] = js/jquery.flexslider-min.js
 scripts[] = js/scripts.js
+
+css[flexslider.css][name] = 'Flexslider styles'
+css[flexslider.css][description] = 'This file holds all the Flexslider CSS for your theme.'
+css[flexslider.css][options][weight] = '12'
+settings[alpha_css][flexslider.css] = 'flexslider.css' 
 
 regions[page_top] = 'Page Top'
 regions[page_bottom] = 'Page Bottom'
